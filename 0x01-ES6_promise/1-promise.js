@@ -1,6 +1,6 @@
-function getFullResponseFromAPI(success) {
+function getFullResponseFromAPI() {
 	return new Promise((resolve, reject) => {
-		if (success) {
+		if (true) {
 			const response = {
 				status: 200,
 				body: 'Success'
