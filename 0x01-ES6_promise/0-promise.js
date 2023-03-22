@@ -1,8 +1,8 @@
-function getResponseFromAPI() {
+export function getResponseFromAPI() {
  // implementation
 }
 
-function getResponseFromAPIWithPromise() {
+export function getResponseFromAPIWithPromise() {
   return new Promise((resolve, reject) => {
     const result = getResponseFromAPI();
     if (result) {
