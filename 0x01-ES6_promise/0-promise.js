@@ -1,9 +1,8 @@
 export function getResponseFromAPI() {
  // implementation
 }
-
 export function getResponseFromAPIWithPromise() {
-  return new Promise((resolve, reject) => {
+  return new Promise(function(resolve, reject) {
     const result = getResponseFromAPI();
     if (result) {
       resolve(result);
@@ -12,4 +11,6 @@ export function getResponseFromAPIWithPromise() {
     }
   });
 }
+
+export default getResponseFromAPI()
 
