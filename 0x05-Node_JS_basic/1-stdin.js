@@ -1,4 +1,6 @@
 const readline = require('readline');
+const { spawn } = require('node:child_process');
+const process = spawn('ls', ['-lh', '/usr']);
 
 const rL = readline.createInterface({
   input: process.stdin,
