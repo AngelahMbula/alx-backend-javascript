@@ -13,5 +13,5 @@ rL.on('line', (name) => {
 });
 
 process.on('exit', () => {
-  console.log('\nThis important software is now closing');
+  console.log('This important software is now closing');
 });
