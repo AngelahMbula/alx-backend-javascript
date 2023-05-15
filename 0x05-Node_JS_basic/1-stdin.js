@@ -1,4 +1,4 @@
-const readline = require('node:child_process');
+const readline = require('readline');
 
 const rL = readline.createInterface({
   input: process.stdin,
